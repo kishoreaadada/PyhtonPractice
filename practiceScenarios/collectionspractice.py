@@ -1,6 +1,6 @@
-#Python lists are mutable and resizable
 from functools import reduce
 
+#Python lists are mutable and resizable
 num_2_11 = list(range(2, 12))
 print(num_2_11)
 num_2_11[2] = 100
