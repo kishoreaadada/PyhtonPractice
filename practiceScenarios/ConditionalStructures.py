@@ -1,3 +1,5 @@
+
+
 def greatest_number(a, b, c):
     if a > b and a > c:
         return a
@@ -36,7 +38,8 @@ def print_course_fee(course):
 
 
 def check_palindrome(name):
-    if name == reverse(name):
+    print("".join(reversed(name)))
+    if name == "".join(reversed(name)):
         print("{} is palindrome".format(name))
     else:
         print("{} is not palindrome".format(name))
@@ -52,5 +55,6 @@ def check_palindrome(name):
 #course = input()
 #print_course_fee(course)
 print("Enter your name to check whether palindrome or not")
-name=input()
-check_palindrome(name)
+name = int(input())
+print(isinstance(name, str))
+print(isinstance(name, int))
